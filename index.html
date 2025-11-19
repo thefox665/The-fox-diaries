@@ -3,8 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fox Diaries</title>
-  <    .header-banner {
+  <title>Fox Diaries – Home</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #f7f4f2;
+      color: #3d3d3d;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 0;
+      background: #f9f6f4;
+      border-bottom: 1px solid #f0ecea;
+      font-size: 15px;
+      margin-bottom: 0;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #b48a98;
+      font-weight: 300;
+      letter-spacing: 0.3px;
+    }
+
+    .navbar a:hover {
+      color: #d6788c;
+      text-decoration: underline;
+    }
+
+    /* Header Banner */
+    .header-banner {
       background: linear-gradient(135deg, #f5d7df, #faf2ef);
       padding: 50px 20px;
       text-align: center;
@@ -25,94 +60,81 @@
       font-size: 16px;
       color: #a78d8d;
       letter-spacing: 0.2px;
-    }>
-    body {
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      background: #f7f4f2;
-      color: #3d3d3d;
-      margin: 0;
-      padding: 0;
-      line-height: 1.8;
     }
+
+    /* Main Content Card */
     .container {
       max-width: 700px;
-      margin: 60px auto;
+      margin: 0 auto;
       padding: 20px;
       background: white;
       border-radius: 16px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.05);
     }
-    h1 {
-      font-size: 36px;
+
+    h2 {
+      font-size: 28px;
       color: #e49cae;
-      text-align: center;
-      margin-bottom: 10px;
       font-weight: 300;
-    }
-    .subtitle {
+      margin-bottom: 20px;
       text-align: center;
-      margin-bottom: 40px;
-      color: #a78d8d;
-      font-size: 15px;
     }
+
+    .post-list p {
+      margin-bottom: 16px;
+      font-size: 18px;
+    }
+
     .post-list a {
       text-decoration: none;
       color: #5c5dd8;
     }
+
     .post-list a:hover {
       text-decoration: underline;
     }
+
     .footer {
       margin-top: 50px;
       text-align: center;
       font-size: 14px;
       color: #bfbfbf;
+      padding-bottom: 30px;
     }
   </style>
-</  <    .navbar {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 20px 0;
-      background: #f9f6f4;
-      border-bottom: 1px solid #f0ecea;
-      font-size: 15px;
-      margin-bottom: 30px;
-    }
+</head>
 
-    .navbar a {
-      text-decoration: none;
-      color: #b48a98;
-      font-weight: 300;
-      letter-spacing: 0.3px;
-    }
+<body>
 
-    .navbar a:hover {
-      color: #d6788c;
-      text-decoration: underline;
-    }>
-
-<body>  <nav class="navbar">
-    <div class="header-banner">
-    <h1>Fox Diaries</h1>
-    <p>soft days · seoul nights · little stories</p>
-  </div>
+  <!-- Navigation -->
+  <nav class="navbar">
     <a href="index.html">Home</a>
     <a href="diary.html">Diary</a>
     <a href="about.html">About Me</a>
   </nav>
-  <div class="container">
-    <h1>Fox Diaries</h1>
-    <div class="subtitle">Seoul · reflections · slow days · soft moments</div>
 
-    <h2>Latest entry</h2>
+  <!-- Header Banner -->
+  <div class="header-banner">
+    <h1>Fox Diaries</h1>
+    <p>soft days · seoul nights · little stories</p>
+  </div>
+
+  <!-- Home Content -->
+  <div class="container">
+    <h2>Latest Entry</h2>
+
     <div class="post-list">
       <p><a href="Entry-1.md">Entry 1 — Seoul reflections</a></p>
     </div>
 
-    <div class="footer">
-      © 2025 Fox Diaries · Written in Seoul
-    </div>
+    <p style="margin-top: 30px; color: #6d6d6d; font-size: 16px; text-align:center;">
+      A journal of my days in Seoul — the calm ones, the chaotic ones, the soft ones.
+    </p>
   </div>
+
+  <div class="footer">
+    © 2025 Fox Diaries · Written in Seoul
+  </div>
+
 </body>
 </html>
