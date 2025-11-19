@@ -1,22 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fox Diaries</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 50px;
-      max-width: 700px;
-      line-height: 1.6;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #f7f4f2;
+      color: #3d3d3d;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
     }
-    h1 { color: #E06E6E; }
-    a { color: #6666CC; }
+    .container {
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-size: 36px;
+      color: #e49cae;
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+    .subtitle {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #a78d8d;
+      font-size: 15px;
+    }
+    .post-list a {
+      text-decoration: none;
+      color: #5c5dd8;
+    }
+    .post-list a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #bfbfbf;
+    }
   </style>
 </head>
+
 <body>
-  <h1>Welcome to Fox Diaries</h1>
-  <p>My reflections, days in Seoul, and diary entries — one chapter at a time.</p>
-  <p><a href="entry-1.md">Read my first entry →</a></p>
+  <div class="container">
+    <h1>Fox Diaries</h1>
+    <div class="subtitle">Seoul · reflections · slow days · soft moments</div>
+
+    <h2>Latest entry</h2>
+    <div class="post-list">
+      <p><a href="Entry-1.md">Entry 1 — Seoul reflections</a></p>
+    </div>
+
+    <div class="footer">
+      © 2025 Fox Diaries · Written in Seoul
+    </div>
+  </div>
 </body>
 </html>
