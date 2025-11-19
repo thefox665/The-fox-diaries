@@ -145,6 +145,21 @@
     .playlist-link a:hover {
       text-decoration: underline;
     }
+    /* Photo Grid */
+.photo-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
   </style>
 </head>
 
@@ -189,7 +204,13 @@
     <a href="#" target="_blank">Open full playlist →</a>
   </p>
 </div>
-
+<!-- Photo Grid -->
+<div class="photo-grid">
+  <img src="images/photo1.jpg" alt="">
+  <img src="images/photo2.jpg" alt="">
+  <img src="images/photo3.jpg" alt="">
+  <img src="images/photo4.jpg" alt="">
+</div>
     <p style="margin-top: 30px; color: #6d6d6d; font-size: 16px; text-align:center;">
       A journal of my days in Seoul — the calm ones, the chaotic ones, the soft ones.
     </p>
