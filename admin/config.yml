@@ -1,13 +1,9 @@
-
 backend:
   name: github
   repo: thefox665/The-fox-diaries
   branch: main
   auth_type: implicit
   auth_endpoint: https://api.netlify.com/auth
-  name: github
-  repo: thefox665/The-fox-diaries
-  branch: main
 
 publish_mode: editorial_workflow
 
